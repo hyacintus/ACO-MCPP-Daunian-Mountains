@@ -39,9 +39,13 @@ Longitude	| Longitude coordinate of the node
 This file represents the augmented graph for one of the possible solutions to the Mixed Chinese Postman Problem (MCPP). The structure of the file is similar to Edges.csv, with the following characteristics:
 
 Column	| Description
+
 Start Node	| ID of the starting node
+
 End Node	| ID of the ending node
+
 Length (m)	| Length of the directed arc in meters
+
 Label	| All entries are 1, as all edges are directed arcs in this Eulerian graph
 
 In this file, some arcs may appear multiple times, reflecting the structure of an Eulerian directed graph. Using Hierholzer's algorithm, one can extract an Eulerian circuit, representing a valid solution to the MCPP.

@@ -15,17 +15,24 @@ The dataset is organized into a main folder named Data, which includes subfolder
 This file contains the data required to construct the mixed graphs for the municipalities. The data is structured in four columns as follows:
 
 Column	| Description
+
 Start Node	| ID of the starting node
+
 End Node	| ID of the ending node
+
 Length (m)	| Length of the edge/arc in meters
+
 Label	| 0 for undirected edges, 1 for directed arcs
 
 # 2. Nodes.csv
 This file provides the geographical data to represent the nodes on OpenStreetMap. The data is structured in three columns as follows:
 
 Column	| Description
+
 Node | ID	Unique identifier for the node
+
 Latitude	| Latitude coordinate of the node
+
 Longitude	| Longitude coordinate of the node
 
 # 3. Solution.csv

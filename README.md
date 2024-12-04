@@ -1,9 +1,6 @@
 # ACO-MCPP-Daunian-Mountains
 
 # Project Overview
-This repository contains data used for the analysis presented in the article:
-"An analysis of Mixed Chinese Postman Problem by using Ant Colony Optimization on Open Real World Data."
-
 The dataset is organized into a main folder named Data, which includes subfolders corresponding to each municipality of the Subappennino Dauno analyzed in the study. Each subfolder is named after a specific municipality and contains the following three .csv files:
 1. Edges.csv
 2. Nodes.csv
